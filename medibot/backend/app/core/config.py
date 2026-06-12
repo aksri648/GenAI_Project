@@ -7,11 +7,11 @@ class Settings(BaseSettings):
     qdrant_path: str = r"C:\Users\Subhrajit.Pyne\OneDrive - Wolters Kluwer\Desktop\CodeBasics_Projects\medibot\backend\qdrant_storage"
     qdrant_url: Optional[str] = None
     qdrant_api_key: Optional[str] = None
-    secret_key: str = "39edaa67e507c77c8386a13fd05fb8b595228f56abd25fee7dfeb8d2007a6c70"
+    secret_key: str = "medibot-super-secret-key-change-in-production"
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 60
-    data_dir: str = r"C:\Users\Subhrajit.Pyne\OneDrive - Wolters Kluwer\Desktop\CodeBasics_Projects\medibot\data"
-    db_path: str = r"C:\Users\Subhrajit.Pyne\OneDrive - Wolters Kluwer\Desktop\CodeBasics_Projects\medibot\data\db\mediassist.db"
+    data_dir: str = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data")
+    db_path: str = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "db", "mediassist.db")
 
     class Config:
         env_file = os.path.join(os.path.dirname(__file__), "..", "..", ".env")
