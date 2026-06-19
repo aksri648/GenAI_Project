@@ -1,4 +1,4 @@
-# 🧠 GenAI Projects — Subhrajit Pyne
+
 
 A collection of Generative AI projects built during the Codebasics Agentic AI Bootcamp.
 
@@ -22,7 +22,3 @@ RAG-based medical Q&A chatbot.
 
 ---
 
-## 👤 Author
-**Subhrajit Pyne** — BigFix Engineer & AI Developer @ Wolters Kluwer
-- 💼 [LinkedIn](https://www.linkedin.com/in/subhrajit-pyne-305a90b4/)
-- 🐙 [GitHub](https://github.com/subhrajitpyne)
